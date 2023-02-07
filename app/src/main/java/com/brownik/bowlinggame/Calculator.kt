@@ -1,28 +1,33 @@
+@file:Suppress("IMPLICIT_CAST_TO_ANY")
+
 package com.brownik.bowlinggame
 
-object Calculator {
+import java.util.*
 
-    fun totalScore(round: Int, isChance: Boolean, score: Int): Int {
-        when (round) {
-            in (1..9) -> calculateNormalScore(isChance, score)
-            else -> calculateLastScore(isChance, score)
+object Calculator {
+    fun getTotalScore(list: List<BowlingFrameDetailData>){
+        var score = 0
+        val waitState = mutableListOf<BowlingFrameDetailData>()
+        list.forEach { data ->
+            when(data.state){
+                BowlingDataState.Spare, BowlingDataState.Strike -> waitState.add(data)
+                BowlingDataState.Normal -> {
+                    if (waitState.size == 0){
+                        data.pin.forEach { score += it }
+                    } else {
+                        calculateScore(waitState.toList())
+                        waitState.clear()
+                    }
+                }
+            }
+        }
+    }
+
+    fun calculateScore(list: List<BowlingFrameDetailData>): Int{
+        list.forEach {
+
         }
         return 0
     }
-
-    private fun calculateNormalScore(isChance: Boolean, score: Int) {
-        if (isChance) {
-            when (score) {
-
-            }
-        }
-    }
-
-    private fun calculateLastScore(isChance: Boolean, score: Int) {
-        if (isChance) {
-            when (score) {
-
-            }
-        }
-    }
 }
+
