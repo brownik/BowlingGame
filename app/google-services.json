@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "169056697551",
+    "project_id": "bowling-game-869f6",
+    "storage_bucket": "bowling-game-869f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169056697551:android:82af414c7884a52c2f8bba",
+        "android_client_info": {
+          "package_name": "com.brownik.bowling_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169056697551-uqsk84d2sjadta7nsl468j6mddkjjkeo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brownik.bowling_game",
+            "certificate_hash": "e742253a800c2071baf9b66e352ff1396e609a9f"
+          }
+        },
+        {
+          "client_id": "169056697551-r9nk6tq7ufst3mudpa5nbqiagjlgeipp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-P0-IAxKyuKqgAd6E3rtjV6XUvKBYwkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169056697551-r9nk6tq7ufst3mudpa5nbqiagjlgeipp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
