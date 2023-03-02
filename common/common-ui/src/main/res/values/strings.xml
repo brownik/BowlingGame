@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_menu">Menu</string>
+    <string name="common_all">All</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_confirm">Confirm</string>
+    <string name="common_register">Register</string>
+    <string name="common_like">Like</string>
+    <string name="common_video_chat">Video Chat</string>
+    <string name="common_contact">Contact</string>
+    <string name="common_gender">Gender</string>
+    <string name="common_gender_m">Male</string>
+    <string name="common_gender_f">Female</string>
+    <string name="common_age">Age</string>
+    <string name="common_marriage">Marriage</string>
+    <string name="common_digamy">Digamy</string>
+    <string name="common_search">Search</string>
+    <string name="common_block">Block</string>
+    <string name="common_unblock">Unblock</string>
+    <string name="common_information">Information</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_country_location">%s, %s</string>
+    <string name="common_error_message">Please try again later.</string>
+    <string name="common_report_already_message">Already reported it.</string>
+
+    <string name="common_header_report">Report</string>
+    <string name="common_header_history_view">View History</string>
+    <string name="common_header_history_like">Like History</string>
+    <string name="common_header_message">Message</string>
+    <string name="common_header_my_page">My page</string>
+
+    <string name="home_floating_notification_setting">Notification settings</string>
+    <string name="home_floating_contact_us">Contact us</string>
+    <string name="home_floating_boost">Boost</string>
+    <string name="home_floating_edit_profile">Edit profile</string>
+    <string name="home_filter_title">Filter</string>
+    <string name="home_filter_sub_title_marriage">Select marriage type.</string>
+    <string name="home_filter_sub_title_conditions">Select the conditions.</string>
+    <string name="home_empty_message">No members were detected.\nTry changing the filter conditions!</string>
+
+    <string name="video_call_information">Please comply with the service terms and policy.</string>
+
+    <string name="like_history_empty_message">No Likes yet</string>
+    <string name="message_list_empty_message">No message.\nFind the perfect partner now.</string>
+    <string name="main_list">Main List</string>
+
+    <string name="finish_back_press_app">한번더.</string>
+
+    <string name="profile_myInfo_aboutMe">About me</string>
+    <string name="profile_spouse_title">Preferred Spouse</string>
+    <string name="profile_empty">No comment</string>
+    <string name="profile_send_like_success">Heart sent to %s.</string>
+    <string name="profile_my_profile">My profile</string>
+    <string name="profile_edit">Edit</string>
+    <string name="profile_edit_profile">Edit profile</string>
+
+    <string name="report_etc_error">Report message should be written in 20 ~ 1000 characters.</string>
+
+    <string name="history_selector_0">Profile I opened</string>
+    <string name="history_selector_1">Who opened mine</string>
+    <string name="history_list_empty">No history</string>
+    <string name="history_view_msg_cnt">Received %s/Sent %s</string>
+    <string name="history_view">View</string>
+    <string name="history_detail">Detail</string>
+    <string name="history_like">Like</string>
+
+    <string name="tools_time">PM 06:18</string>
+    <string name="tools_date">14-10-2022</string>
+    <string name="tools_location">USA, New York</string>
+
+    <string name="message_list_edit">Edit</string>
+    <string name="message_list_select_all">Select all</string>
+    <string name="message_list_delete_success">The Message has been deleted.</string>
+
+    <string name="video_call_request_dialog_title">Honey Video Chat request</string>
+    <string name="video_call_receive_dialog_title">Video Chat has been arrived</string>
+    <string name="video_call_receive_dialog_desc1">Get in touch without phone number exposure.</string>
+    <string name="video_call_receive_dialog_desc2">(The call will be denied in 30 seconds)</string>
+    <string name="video_call_toast_cancel">Video Chat request has been cancelled.</string>
+
+
+</resources>

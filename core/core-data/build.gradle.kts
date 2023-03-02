@@ -5,7 +5,7 @@ plugins {
 
 dependencies {
     implementation(projects.common.commonModel)
-    implementation(projects.core.coreNetwork)
+    implementation(projects.core.coreDatabase)
     implementation(projects.common.commonUtil)
 
     implementation(libs.coroutine.core)

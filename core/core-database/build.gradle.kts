@@ -1,6 +1,8 @@
 plugins {
     id("brownik.android.library")
     id("brownik.android.hilt")
+    id("kotlinx-serialization")
+//    id("com.google.gms.google-services")
 }
 
 android {
@@ -10,4 +12,9 @@ android {
 }
 
 dependencies {
+    implementation(projects.common.commonModel)
+    implementation(projects.common.commonUtil)
+
+//    implementation("com.google.firebase:firebase-database:20.1.0")
+    implementation(libs.google.firebase.database)
 }

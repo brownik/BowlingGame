@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/snackbar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="12dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="12dp"
+        tools:background="#E6505050">
+
+        <TextView
+            android:id="@+id/snackbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/snackbar_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            tools:text="\n관심있어요 메시지를 보냈습니다."
+            tools:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/snackbar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="10dp"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintStart_toEndOf="@id/snackbar_text"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="내 관심 목록 가기 >" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

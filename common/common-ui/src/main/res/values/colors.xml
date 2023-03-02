@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent_00">#00000000</color>
+
+    <!-- theme colors -->
+    <color name="theme_black">#202020</color>
+    <color name="theme_warm_grey">#707070</color>
+    <color name="theme_gray_50">#505050</color>
+    <color name="theme_gray_90">#909090</color>
+    <color name="theme_gray_a4">#a4a4a4</color>
+    <color name="theme_greyish_two">#b8b8b8</color>
+    <color name="theme_gray_d4">#d4d4d4</color>
+    <color name="theme_gray_e1">#e1e1e1</color>
+    <color name="theme_gray_f1">#f1f1f1</color>
+    <color name="theme_gray_f2">#f2f2f2</color>
+    <color name="theme_gray_f5">#f5f5f5</color>
+    <color name="theme_gray_fa">#fafafa</color>
+    <color name="theme_gray_disable">#dfddd6</color>
+
+    <color name="theme_primary_500">#ffce0e</color>
+    <color name="theme_primary_450">#ffd52e</color>
+    <color name="theme_primary_400">#ffe064</color>
+    <color name="theme_primary_350">#ffe788</color>
+    <color name="theme_primary_300">#ffeea8</color>
+    <color name="theme_primary_250">#fff3c5</color>
+    <color name="theme_primary_200">#fff7d6</color>
+    <color name="theme_primary_150">#fffae4</color>
+    <color name="theme_primary_100">#fefbec</color>
+    <color name="theme_primary_border">#f2c103</color>
+    <color name="theme_primary_500_ripple">#f6c507</color>
+    <color name="theme_primary_300_ripple">#fbe9a0</color>
+
+    <color name="theme_badge_count">#29c582</color>
+    <color name="theme_error_notice">#ff644b</color>
+    <color name="theme_nickname_m">#3677cb</color>
+    <color name="theme_nickname_f">#ee678b</color>
+    <color name="theme_highlight">#956800</color>
+    <color name="theme_locale_m">#465a95</color>
+    <color name="theme_locale_f">#dc5478</color>
+    <color name="theme_marriage_badge_text">#d83b76</color>
+    <color name="theme_marriage_badge_border">#d6668e</color>
+    <color name="theme_digamy_badge_text">#348495</color>
+    <color name="theme_digamy_badge_border">#5ba4b2</color>
+    <color name="theme_error_edit_text">#ffe8e2</color>
+
+    <color name="theme_secondary_history_view">#ffe1bf</color>
+    <color name="theme_primary_history_view">#64625e</color>
+    <color name="theme_secondary_history_detail">#eadfff</color>
+    <color name="theme_primary_history_detail">#975ffc</color>
+    <color name="theme_secondary_history_like">#d9f6ff</color>
+    <color name="theme_primary_history_like">#27aed8</color>
+    <color name="theme_custom_push_dark_message">#CCFFFFFF</color>
+
+</resources>
+
+    <!-- 투명도
+    100% FF
+    95%	F2
+    90%	E6
+    85%	D9
+    80%	CC
+    75%	BF
+    70%	B3
+    65%	A6
+    60%	99
+    55%	8C
+    50%	80
+    45%	73
+    40%	66
+    35%	59
+    30%	4D
+    25%	40
+    20%	33
+    15%	26
+    10%	1A
+    5%	0D
+    0%	00 -->

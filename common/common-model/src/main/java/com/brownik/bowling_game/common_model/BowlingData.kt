@@ -1,4 +1,4 @@
-package com.brownik.bowling_game
+package com.brownik.bowling_game.common_model
 
 sealed class BowlingDataState {
     object Normal: BowlingDataState()

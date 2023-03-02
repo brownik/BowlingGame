@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="util_yesterday">Yesterday</string>
+    <string name="util_days_ago">%d days ago</string>
+
+    <!--button-->
+    <string name="common_next">Next</string>
+    <string name="common_setting">설정</string>
+    <string name="common_confirm">확인</string>
+    <string name="common_cancel">취소</string>
+    <string name="upload_picture_error">정상적이지 않은 파일은 등록되지 않았습니다.</string>
+
+    <string name="permission_message_common">Please grant permissions\nin your app settings.</string>
+    <string name="permission_message_storage">Please grant storage permissions\nin your app settings.</string>
+    <string name="permission_message_recode_audio">Please grant microphone permissions\nin your app settings.</string>
+    <string name="permission_message_camera">Please grant camera permissions\nin your app settings.</string>
+    <string name="permission_message_phone_state">Please grant call permissions\nin your app settings.</string>
+
+    <!-- Notification -->
+    <string name="notification_sound">Sound notification</string>
+    <string name="notification_vibrate">Vibration notification</string>
+    <string name="notification_mute">Silent notification</string>
+
+</resources>

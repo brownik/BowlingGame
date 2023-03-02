@@ -10,6 +10,7 @@ pluginManagement {
         }
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -22,7 +23,8 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "bowling_game"
+
+rootProject.name = "bowling-game"
 include(
     ":app",
     ":common:common-base",
@@ -32,4 +34,5 @@ include(
     ":core:core-data",
     ":core:core-database",
     ":core:core-network",
+    ":feature:feature-game",
 )
