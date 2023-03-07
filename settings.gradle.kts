@@ -35,4 +35,5 @@ include(
     ":core:core-database",
     ":core:core-network",
     ":feature:feature-game",
+    ":feature:feature-sign",
 )

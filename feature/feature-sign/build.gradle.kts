@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.brownik.bowling_game.feature_game"
+    namespace = "com.brownik.bowling_game.feature_sign"
 
     buildFeatures {
         viewBinding = true
@@ -18,6 +18,10 @@ android {
 dependencies {
 
     implementation(projects.common.commonModel)
+
+    // 소셜 로그인
+    implementation(libs.google.play.services.base)
+    implementation(libs.google.play.services.auth)
 
     implementation(libs.androidx.core)
     implementation(libs.androidx.appcompat)
